@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B58823A20866FB2002A94CD /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3B58823920866FB2002A94CD /* .gitignore */; };
 		3BAF690820866D37005FA6B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF690720866D37005FA6B1 /* AppDelegate.swift */; };
 		3BAF690A20866D37005FA6B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF690920866D37005FA6B1 /* ViewController.swift */; };
 		3BAF690D20866D37005FA6B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BAF690B20866D37005FA6B1 /* Main.storyboard */; };
 		3BAF690F20866D39005FA6B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BAF690E20866D39005FA6B1 /* Assets.xcassets */; };
 		3BAF691220866D39005FA6B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BAF691020866D39005FA6B1 /* LaunchScreen.storyboard */; };
 		3BAF691D20866D39005FA6B1 /* QuickInjectionCrashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF691C20866D39005FA6B1 /* QuickInjectionCrashTests.swift */; };
+		3BAF692820866D4E005FA6B1 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 3BAF692720866D4E005FA6B1 /* Cartfile */; };
+		3BAF692B20866DA1005FA6B1 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAF692A20866DA1005FA6B1 /* Nimble.framework */; };
+		3BAF692D20866DA9005FA6B1 /* InjectionTDD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAF692C20866DA9005FA6B1 /* InjectionTDD.framework */; };
+		3BAF692F20866DB2005FA6B1 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAF692E20866DB2005FA6B1 /* Quick.framework */; };
+		3BAF693320866EEB005FA6B1 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3BAF692E20866DB2005FA6B1 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3BAF693420866EEC005FA6B1 /* InjectionTDD.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3BAF692C20866DA9005FA6B1 /* InjectionTDD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3BAF693520866EEC005FA6B1 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3BAF692A20866DA1005FA6B1 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +33,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3BAF693220866EE1005FA6B1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3BAF693320866EEB005FA6B1 /* Quick.framework in CopyFiles */,
+				3BAF693420866EEC005FA6B1 /* InjectionTDD.framework in CopyFiles */,
+				3BAF693520866EEC005FA6B1 /* Nimble.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3B58823920866FB2002A94CD /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		3BAF690420866D37005FA6B1 /* QuickInjectionCrash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickInjectionCrash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BAF690720866D37005FA6B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BAF690920866D37005FA6B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +60,10 @@
 		3BAF691820866D39005FA6B1 /* QuickInjectionCrashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickInjectionCrashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BAF691C20866D39005FA6B1 /* QuickInjectionCrashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickInjectionCrashTests.swift; sourceTree = "<group>"; };
 		3BAF691E20866D39005FA6B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BAF692720866D4E005FA6B1 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		3BAF692A20866DA1005FA6B1 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		3BAF692C20866DA9005FA6B1 /* InjectionTDD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InjectionTDD.framework; path = Carthage/Build/iOS/InjectionTDD.framework; sourceTree = "<group>"; };
+		3BAF692E20866DB2005FA6B1 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BAF692F20866DB2005FA6B1 /* Quick.framework in Frameworks */,
+				3BAF692D20866DA9005FA6B1 /* InjectionTDD.framework in Frameworks */,
+				3BAF692B20866DA1005FA6B1 /* Nimble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +90,12 @@
 		3BAF68FB20866D37005FA6B1 = {
 			isa = PBXGroup;
 			children = (
+				3BAF692720866D4E005FA6B1 /* Cartfile */,
+				3B58823920866FB2002A94CD /* .gitignore */,
 				3BAF690620866D37005FA6B1 /* QuickInjectionCrash */,
 				3BAF691B20866D39005FA6B1 /* QuickInjectionCrashTests */,
 				3BAF690520866D37005FA6B1 /* Products */,
+				3BAF692920866DA0005FA6B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +130,16 @@
 			path = QuickInjectionCrashTests;
 			sourceTree = "<group>";
 		};
+		3BAF692920866DA0005FA6B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BAF692E20866DB2005FA6B1 /* Quick.framework */,
+				3BAF692C20866DA9005FA6B1 /* InjectionTDD.framework */,
+				3BAF692A20866DA1005FA6B1 /* Nimble.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -123,6 +167,7 @@
 				3BAF691420866D39005FA6B1 /* Sources */,
 				3BAF691520866D39005FA6B1 /* Frameworks */,
 				3BAF691620866D39005FA6B1 /* Resources */,
+				3BAF693220866EE1005FA6B1 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -179,6 +224,7 @@
 			files = (
 				3BAF691220866D39005FA6B1 /* LaunchScreen.storyboard in Resources */,
 				3BAF690F20866D39005FA6B1 /* Assets.xcassets in Resources */,
+				3BAF692820866D4E005FA6B1 /* Cartfile in Resources */,
 				3BAF690D20866D37005FA6B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B58823A20866FB2002A94CD /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +441,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = QuickInjectionCrashTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -414,6 +465,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = QuickInjectionCrashTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
